@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51650" started-at="2022-02-08T08:54:20 MST" finished-at="2022-02-08T08:55:12 MST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51650" started-at="2022-02-08T08:54:20 MST" finished-at="2022-02-08T08:55:12 MST">
+      <class name="targetTests.TargetLoginTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:targetTests.TargetLoginTests@76c3e77a]" name="initialize" is-config="true" duration-ms="2117" started-at="2022-02-08T08:54:26 MST" finished-at="2022-02-08T08:54:28 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPageTest(java.lang.String,java.lang.String)[pri:0, instance:targetTests.TargetLoginTests@76c3e77a]" name="loginPageTest" duration-ms="17674" started-at="2022-02-08T08:54:28 MST" data-provider="getLoginData" finished-at="2022-02-08T08:54:46 MST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SANJAY.VASOYA@GMAIL.COM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dknnsks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="loginPageTest(java.lang.String,java.lang.String)[pri:0, instance:targetTests.TargetLoginTests@76c3e77a]" name="loginPageTest" duration-ms="10745" started-at="2022-02-08T08:54:46 MST" data-provider="getLoginData" finished-at="2022-02-08T08:54:57 MST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiranthummar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dljljdl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="tearDwon()[pri:0, instance:targetTests.TargetLoginTests@76c3e77a]" name="tearDwon" is-config="true" duration-ms="832" started-at="2022-02-08T08:55:11 MST" finished-at="2022-02-08T08:55:12 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+      </class> <!-- targetTests.TargetLoginTests -->
+      <class name="targetTests.TargetForgotPasswordTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:targetTests.TargetForgotPasswordTest@3d6f0054]" name="initialize" is-config="true" duration-ms="6059" started-at="2022-02-08T08:54:20 MST" finished-at="2022-02-08T08:54:26 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="forgotPassword()[pri:0, instance:targetTests.TargetForgotPasswordTest@3d6f0054]" name="forgotPassword" duration-ms="13176" started-at="2022-02-08T08:54:57 MST" finished-at="2022-02-08T08:55:10 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:targetTests.TargetForgotPasswordTest@3d6f0054]" name="tearDown" is-config="true" duration-ms="961" started-at="2022-02-08T08:55:10 MST" finished-at="2022-02-08T08:55:11 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- targetTests.TargetForgotPasswordTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+12:30:27.010 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+12:30:27.285 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xad56980c5bbd4d75
+12:30:27.498 [TestNG-tests-1] INFO  resources.Base - Navigated to Forgot Password Page
+12:30:34.957 [TestNG-tests-1] INFO  resources.Base - Valid User Login
+12:30:39.118 [TestNG-tests-1] INFO  resources.Base - Invalid User Login
